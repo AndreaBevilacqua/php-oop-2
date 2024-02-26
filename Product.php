@@ -11,4 +11,8 @@ class Product {
         $this->price = $price;
         $this->type = $type;
     }
+
+    public function getinfo() {
+        return "Nome: $this->name <br> Prezzo: $this->price <br> Categoria: $this->type";
+    }
 }
